@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+form{
+    display: inline-block;
+    padding-left: 12px;
+}
+
+input{
+    width: 450px;
+    height: 23px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: larger;
+    border-radius: 0px;
+    border-width: 0px;
+    outline: none;
+}
+
+.header{
+    width: 100vw;
+    height: 10%;
+    /* position: relative; */
+}
+
+.upper_section{
+    height: 38px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    position: sticky;
+    top: 0px;
+}
+
+.lower_section{
+    height: 54px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    position: fixed;
+    top: 40px;
+    /* bottom: -20px; */
+}
+
+.lower_section h5{
+    display: inline-block;
+    padding-left: 36px;
+}
+
+/* Section One Starts */
+
+.section_1{
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: larger;
+    padding: 6% 10%;
+    width: 100vw;
+}
+
+.section_1 .article{
+    width: 69%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 2%;
+    h1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+/* Section One Ends */
+
+
+/* Section Two Starts */
+
+.section_2{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1.5% 5.5%;
+    width: 100vw;
+}
+
+.section_2 .article {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 20%;
+}
+
+.section_2 img{
+    width: 119px;
+    height: 119px;  
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.shoe{
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: lighter;
+}
+
+.box{
+    padding: 1% 1%;
+    h2{
+        color: #000000B3;
+    }
+}
+
+/* Section Two Ends */
+
+
+/* Section Three Stars */
+
+.section_3{
+    background: linear-gradient(to right, #000000B3, #000000);
+    padding: 7% 0% 0% 8%;
+    width: 100vw;
+    height: 106vh;
+}
+
+.content{
+    width: 1300px;
+    height: 550px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    box-shadow: 0px 0px 10px grey;
+    color: white;
+    padding: 2%;
+}
+
+.content .article{
+    display: inline-block;
+    width: 42%;
+    height: 80%;
+    p{
+        padding-top: 55px;
+        font-size: larger;
+        line-height: 20px;
+    }
+}
+
+.image{
+    display: inline-block; 
+    position: absolute;
+    left: 70%;
+    /* top: 2px; */
+    img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 10px 10px 8px white;
+    }
+}
+
+.image img:hover{
+    position: absolute;
+    left: 10%;
+    bottom: 20% ;
+}
