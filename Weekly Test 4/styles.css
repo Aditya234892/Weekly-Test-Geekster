@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    background-color: rgb(235, 233, 233);
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 10.5vh; 
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    h2{
+        position: relative;
+        top: 25%;
+        right: 100%;
+    }   
+}
+
+.navbar{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 4%;
+}
+
+.navbar div:hover, .Logo h2:hover{
+    color: #d6d2d2;
+    transition: color 0.2s ease;
+}
+
+.main_1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top:50%;
+}
+
+.intro_heading{
+        font-size: 30px;
+        font-weight: 700;
+        position: relative;
+        left: 20%;
+        bottom: 5%;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro_content{
+    width: 50%;
+    font-size: 20px;
+    position: relative;
+    left: 26%;
+    bottom: 4%;
+}
+
+.intro_content > :nth-child(2){
+    position: relative;
+    left: 23%;
+}
+
+.intro button{
+    width: 12.5%;
+    height: 7%;
+    position: relative;
+    left:44.2%;
+    top: 3%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.6s ease;
+    color: white;
+}
+
+.main_2{
+    width: 100%;
+    height: 100vh;
+}
+
+.OurServices{
+    width: 100%;
+    height: 150vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: transform 1s ease-in-out; */
+}
+
+.OurServices img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    position: relative;
+    bottom: 25px;
+}
+
+.cards{
+    width: 80.5%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 0px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card{
+    width: 30%;
+    height: 45%;
+    /* margin-left: 5px; */
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    h4{
+        font-size: 18.72px;
+    }
+    p{
+        margin-top: -10px;
+        padding: 15px 35px 0px 35px;
+        text-align: center;
+    }
+}
+
+.AboutUs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: transform 1s ease-in-out; */
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.AboutUs .content_container{
+    width: 77%;
+    height: 70%;
+}
+
+.AboutUs .content{
+    margin-bottom: 3%;
+    h3{
+        margin-bottom: 10px;
+    }
+}
+
+.foot_list{
+    list-style-type: none;
+}
+
+.ContactUs{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: transform 1s ease-in-out; */
+}
+
+.footer_container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot_1{
+    margin-top: 3%;
+}
+
+.foot_1 li{
+    display: flex;
+    margin-bottom: 3%;
+    span{
+        margin-left: 10px;
+    }
+
+    i{
+        color: #7a7a7a;
+    }
+}
+
+.foot_2{
+    width: 36%;
+    height: 50vh;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea{
+        width: 97%;
+        height: 48px;
+        padding: 10px;
+        margin-bottom: 4%;
+        border: 1px solid #bfbfbf;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    textarea{
+        height: 155px;
+    }
+
+    button{
+        width: 170px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+        background-color: #333;
+        font-size: 17px;
+        color: white;
+        position: relative;
+        bottom: 8px;
+    }
+}
+
+input, textarea:focus{
+    outline: none;
+}
+
+.foot_2 button:hover{
+    background-color: #575656;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+
