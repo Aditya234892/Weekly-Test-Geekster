@@ -268,14 +268,14 @@ form span{
     align-items: center;
 }
 
-.upper-foot:hover{
-    cursor: pointer;
-    color: #cccccc;
-}
-
 .upper-foot a{
     color: white;
     text-decoration: none;
+}
+
+.upper-foot:hover a{
+    cursor: pointer;
+    color: #cccccc;
 }
 
 .lower-foot{
