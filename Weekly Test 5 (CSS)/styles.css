@@ -273,6 +273,11 @@ form span{
     color: #cccccc;
 }
 
+.upper-foot a{
+    color: white;
+    text-decoration: none;
+}
+
 .lower-foot{
     width: 100%;
     height: 35vh;
