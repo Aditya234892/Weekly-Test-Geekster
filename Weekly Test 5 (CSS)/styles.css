@@ -223,6 +223,7 @@ form span{
     margin-top: 3%;
     transition: transform 1s;
     white-space: no;
+    cursor: pointer;
     h3{
         margin-top: 10%;
         margin-bottom: 4%;
@@ -264,6 +265,11 @@ form span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.upper-foot:hover{
+    cursor: pointer;
+    color: #cccccc;
 }
 
 .lower-foot{
