@@ -40,6 +40,7 @@ html{
     height: 120%;
     position: relative;
     bottom: 5px;
+    cursor: pointer;
 }
 
 .upper-section h4{
